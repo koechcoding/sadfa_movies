@@ -30,4 +30,8 @@ const DisplayMovies =()=>{
            console.log(err);
         }
     }
+
+    useEffect(()=>{
+        searchMovies("Batman");
+    }, []);
 }
